@@ -21,7 +21,7 @@ def RPS_game():
         machine_choice = random.choice(choices)
         print(f"\nYou chose {player_choice}, Machine chose {machine_choice}.\n")
 
-        #
+        #Declare the winner
         if player_choice == machine_choice:
             print(f"Both chose {player_choice}. It's a tie!")
         
