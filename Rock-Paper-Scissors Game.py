@@ -79,5 +79,35 @@ if __name__ == "__main__":
     else:
         print("Thank you")
 
+"""
+Sample Output:
+Welcome to the game
+
+ *-*-*-*-*-*-*  Rock-Paper-Scissors  *-*-*-*-*-*-* 
+
+Enter the Number of Rounds you want to play: 2
+Enter a choice to start playing(rock, paper, scissors): PAPER
+
+You chose paper, Machine chose paper.
+
+Both chose paper. It's a tie!
+
+Score - You: 0, Machine: 0
+
+Enter a choice to start playing(rock, paper, scissors): Rock
+
+You chose rock, Machine chose scissors.
+
+Rock smashes scissors! You win this round!
+
+Score - You: 1, Machine: 0
+
+
+Final Score - You: 1, Machine: 0
+Congratulations! You are the Winner!
+
+Play again? (yes/no): no
+Thank you
+"""
 
         
